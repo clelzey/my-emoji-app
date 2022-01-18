@@ -1,0 +1,66 @@
+html {
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(127deg, #48466D, #48466D, #3D84A8, #ABEDD8, #ABEDD8, #F6416C);
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    background-color: #80D87F;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    background: darkcyan;
+    color: #F1F1F6;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 5px 15px #48466D;
+}
