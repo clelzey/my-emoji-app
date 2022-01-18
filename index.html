@@ -1,13 +1,17 @@
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Christy's Emojis</h1>   
+<html lang="en">
+<head>
+    <title>Christy's Emojis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Christy's Emojis</h1>
         <div id="emoji-container"></div>
+        <label for="emoji-input"></label>
         <input type="text" id="emoji-input" placeholder="type an emoji 🎉">
         <div class="buttons-wrapper">
             <button id="unshift-btn">Add to beginning</button>
@@ -17,6 +21,7 @@
             <button id="shift-btn">Remove from beginning</button>
             <button id="pop-btn">Remove from end</button>
         </div>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
